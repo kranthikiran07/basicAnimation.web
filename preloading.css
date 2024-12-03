@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111;
+    animation: hai 6s infinite;
+
+
+}
+.object{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: Kranthi 5s infinite;
+    position: relative;
+    
+}
+@keyframes Kranthi{
+    0%{
+    top: 0%;
+    left: 0%;
+    background-color:green ;
+    }
+    25%{
+   top: 0px;
+   left: 900px;
+   background-color: yellow;
+
+    }
+    50%{
+    top: 500px;
+    left: 900px;
+    background-color: aliceblue;
+    }
+    75%{
+        top: 500px;
+        left: 0px;
+        background-color: darkmagenta;
+
+    }
+    100%{
+   top: 0px;
+   left: 0px;
+   background-color: red;
+    }
+}
+@keyframes hai {
+    from{
+        background-color: grey;
+     
+    } 
+    to{
+        background-color:maroon;
+    }
+}
